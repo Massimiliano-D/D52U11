@@ -37,6 +37,7 @@ public class MainEs2 {
         for (int i = 0; i < numero; i++) {
             pippo.add(random.nextInt(101));
         }
+        Collections.sort(pippo);
         return pippo;
     }
     //Il metodo metodo1 riceve un intero numero come parametro e restituisce una lista di numeri
