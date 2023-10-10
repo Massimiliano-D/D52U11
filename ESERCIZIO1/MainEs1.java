@@ -52,6 +52,10 @@ public class MainEs1 {
         for (String parola : ParoleDoppie) {
             log.info("parole doppie:" + " " + parola);
         }
+        //eseguo due cicli for-each separati per stampare le parole distinte e le parole duplicate utilizzando
+        // il logger. Le parole distinte vengono stampate nel primo ciclo e le parole duplicate nel secondo ciclo.
+
         log.info("numero di parole distinte:" + " " + contParole.size());
+        // stampo il numero di parole distinte utilizzando contParole.size().
     }
 }
